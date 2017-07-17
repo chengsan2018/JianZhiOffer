@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E46222FB-C7C2-4F08-80F8-FEF0616756D1}</ProjectGuid>
+    <RootNamespace>JianZhiOffer</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="No10\CBinary.h" />
+    <ClInclude Include="No11\CNPower.h" />
+    <ClInclude Include="No12\CPrintNDigits.h" />
+    <ClInclude Include="No13\CDeleteListNode.h" />
+    <ClInclude Include="No14\CReorderOddEven.h" />
+    <ClInclude Include="No15\CLastKthNode.h" />
+    <ClInclude Include="No16\CReverseList.h" />
+    <ClInclude Include="No17\CMergeSortedList.h" />
+    <ClInclude Include="No18\CJudgeSubTree.h" />
+    <ClInclude Include="No19\CMirrorOfBinaryTree.h" />
+    <ClInclude Include="No1\CMyString.h" />
+    <ClInclude Include="No20\CPrintMatrix.h" />
+    <ClInclude Include="No21\CMyStack.h" />
+    <ClInclude Include="No22\CStackPopOrder.h" />
+    <ClInclude Include="No23\CPrintTree.h" />
+    <ClInclude Include="No24\CBinarySearchTree.h" />
+    <ClInclude Include="No25\CFindPathInBT.h" />
+    <ClInclude Include="No26\CComplexList.h" />
+    <ClInclude Include="No27\CBST2DoublyList.h" />
+    <ClInclude Include="No28\CPermutation.h" />
+    <ClInclude Include="No29\CFindMoreThanHalf.h" />
+    <ClInclude Include="No2\StructAndClass.h" />
+    <ClInclude Include="No30\CFindLeastNumbers.h" />
+    <ClInclude Include="No31\CMaxSumOfSubset.h" />
+    <ClInclude Include="No32\CFrequencyOf1.h" />
+    <ClInclude Include="No33\CMinOfCombination.h" />
+    <ClInclude Include="No34\CUglyNumber.h" />
+    <ClInclude Include="No35\CRepeatingChar.h" />
+    <ClInclude Include="No38\CCountNumber.h" />
+    <ClInclude Include="No39\CDepthOfTree.h" />
+    <ClInclude Include="No3\C2dArraySearch.h" />
+    <ClInclude Include="No40\CFindOnceNumber.h" />
+    <ClInclude Include="No41\CFindNumberWithSum.h" />
+    <ClInclude Include="No42\COperateString.h" />
+    <ClInclude Include="No43\CPrintProbability.h" />
+    <ClInclude Include="No44\CJudgeCards.h" />
+    <ClInclude Include="No45\CEraseCirle.h" />
+    <ClInclude Include="No46\CSumOfN.h" />
+    <ClInclude Include="No47\CAdd.h" />
+    <ClInclude Include="No4\CReplaceSpace.h" />
+    <ClInclude Include="No51\CDuplicationInArray.h" />
+    <ClInclude Include="No52\CMultiplyArray.h" />
+    <ClInclude Include="No53\CRegularExpression.h" />
+    <ClInclude Include="No5\CPrintList.h" />
+    <ClInclude Include="No6\CReconstructBinaryTree.h" />
+    <ClInclude Include="No7\CQueueUsingTwoStack.h" />
+    <ClInclude Include="No8\CRotateArray.h" />
+    <ClInclude Include="No9\CFibonacci.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
